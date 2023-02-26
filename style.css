@@ -34,7 +34,6 @@
         margin: 0px;
         background-color: rgb(218, 18, 35);
         height: 20px;
-       
         padding: 25px;
         color: rgb(255, 255, 255);
     }
@@ -116,7 +115,7 @@
         position: relative;
         display: flex;
         flex-direction: row;
-        margin: 50px;
+        margin: 10px;
     }
 
 
