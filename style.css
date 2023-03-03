@@ -4,6 +4,10 @@
         padding: 0px;
     }
 
+    html {
+        scroll-behavior: smooth;
+      }
+
     /* scrollbar */
     /* width */
 ::-webkit-scrollbar {
@@ -313,6 +317,57 @@
     div .project-descr:nth-child(odd){
         background-color: rgb(246, 0, 0);
     }
+    .project-snap{
+        margin-top: 15px;
+        height: fit-content;
+        width: 100%;
+    }
+    .project-snap .img-cont{
+        overflow:auto;
+        scroll-padding: 3px;
+        display: flex;
+        flex-direction: row;
+        height:300px;
+        align-content:space-between;
+        width: 100%;
+    }
+    .project-snap .img-cont .img{
+        margin: 5px;
+        border-radius: 10px;
+    }
+    .menu{
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        bottom: 4px;
+    }
+    .menu-items {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width:fit-content;
+        background-color: rgb(0, 0, 0);
+        box-shadow: 3px 2px 100px rgb(255, 0, 0);
+        border-color: #ffffff;
+        border-radius: 30px;
+        padding:5px;
+    }
+    .m-item{
+        background-color: #fd1900;
+        border-radius: 30px;
+        padding: 10px;
+        margin:5px;
+        color: white;
+    }
+    .m-item:hover{
+        position: relative;
+        bottom: 6px;
+        background-color: #fd1900;
+        border-radius: 30px;
+        margin:5px;
+        color: white;
+    }
 
     .footer{
         background-color: rgb(0, 0, 0);
@@ -321,7 +376,8 @@
     .footer .footer-txt{
         color: rgb(255, 255, 255);
         font-family: 'Jost', sans-serif;
-        text-align: center;
+        text-align: end;
+        margin-right: 5px;
     }
 
     .icon-heart{
@@ -362,6 +418,12 @@
             margin: auto;
             width: auto;
         }
+        .about-para{
+            font-size: 20px;
+        }
+        .contact-box{
+            margin: 10px;
+        }
         
         .project-head{
             font-size: 24px;
@@ -387,7 +449,7 @@
 
     
         .link-tag{
-            font-size: 20px;
+            font-size: 15px;
         }
         .contact-link{
             font-size: 20px;
